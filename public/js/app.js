@@ -87,7 +87,7 @@ new Vue({
 new Vue({
     el: "#your_res",
     data: {
-        columns: ['date', 'time', 'number_Of_People', 'number_Of_Tables'],
+        columns: ['date', 'time', 'till', 'number_of_People', 'number_of_Tables'],
         tableData: [],
         options: {
             perPage: 12,
